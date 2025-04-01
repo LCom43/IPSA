@@ -49,4 +49,6 @@ int main() {
     sem_destroy(&mutex);
     
     return 0;  // Fin du programme principal
+
+    // Fichier modifié
 }
