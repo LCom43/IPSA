@@ -25,6 +25,7 @@ int main() {
     // &mutex : adresse du sémaphore,
     // 0 : indique qu'il est partagé entre threads (pas entre processus),
     // 1 : valeur initiale du sémaphore, ici 1, ce qui signifie qu'un seul thread peut accéder à la ressource à la fois.
+    printf("Coucou Louis");
     sem_init(&mutex, 0, 1);
     
     pthread_t threads[5];  // Tableau de threads pour stocker les identifiants des 5 threads
